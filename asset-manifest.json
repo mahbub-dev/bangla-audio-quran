@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mahbub-dev/bangla-audio-quran/static/css/main.7d9318bc.css",
-    "main.js": "/mahbub-dev/bangla-audio-quran/static/js/main.d21432f2.js",
-    "static/media/bg1.png": "/mahbub-dev/bangla-audio-quran/static/media/bg1.c4a23451265b615d5846.png",
-    "index.html": "/mahbub-dev/bangla-audio-quran/index.html",
-    "main.7d9318bc.css.map": "/mahbub-dev/bangla-audio-quran/static/css/main.7d9318bc.css.map",
-    "main.d21432f2.js.map": "/mahbub-dev/bangla-audio-quran/static/js/main.d21432f2.js.map"
+    "main.css": "/bangla-audio-quran/static/css/main.7d9318bc.css",
+    "main.js": "/bangla-audio-quran/static/js/main.fdb53d62.js",
+    "static/media/bg1.png": "/bangla-audio-quran/static/media/bg1.c4a23451265b615d5846.png",
+    "index.html": "/bangla-audio-quran/index.html",
+    "main.7d9318bc.css.map": "/bangla-audio-quran/static/css/main.7d9318bc.css.map",
+    "main.fdb53d62.js.map": "/bangla-audio-quran/static/js/main.fdb53d62.js.map"
   },
   "entrypoints": [
     "static/css/main.7d9318bc.css",
-    "static/js/main.d21432f2.js"
+    "static/js/main.fdb53d62.js"
   ]
 }
