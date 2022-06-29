@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bangla-audio-quran/static/css/main.7d9318bc.css",
-    "main.js": "/bangla-audio-quran/static/js/main.fdb53d62.js",
-    "static/media/bg1.png": "/bangla-audio-quran/static/media/bg1.c4a23451265b615d5846.png",
-    "index.html": "/bangla-audio-quran/index.html",
-    "main.7d9318bc.css.map": "/bangla-audio-quran/static/css/main.7d9318bc.css.map",
-    "main.fdb53d62.js.map": "/bangla-audio-quran/static/js/main.fdb53d62.js.map"
+    "main.css": "/bangla-audio-quran/mishari-al-afashi/static/css/main.7d9318bc.css",
+    "main.js": "/bangla-audio-quran/mishari-al-afashi/static/js/main.a2aceb0f.js",
+    "static/media/bg1.png": "/bangla-audio-quran/mishari-al-afashi/static/media/bg1.c4a23451265b615d5846.png",
+    "index.html": "/bangla-audio-quran/mishari-al-afashi/index.html",
+    "main.7d9318bc.css.map": "/bangla-audio-quran/mishari-al-afashi/static/css/main.7d9318bc.css.map",
+    "main.a2aceb0f.js.map": "/bangla-audio-quran/mishari-al-afashi/static/js/main.a2aceb0f.js.map"
   },
   "entrypoints": [
     "static/css/main.7d9318bc.css",
-    "static/js/main.fdb53d62.js"
+    "static/js/main.a2aceb0f.js"
   ]
 }
