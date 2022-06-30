@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bangla-audio-quran/static/css/main.7d9318bc.css",
-    "main.js": "/bangla-audio-quran/static/js/main.bd03b3a4.js",
+    "main.js": "/bangla-audio-quran/static/js/main.c3a1de6c.js",
     "static/media/bg1.png": "/bangla-audio-quran/static/media/bg1.c4a23451265b615d5846.png",
     "index.html": "/bangla-audio-quran/index.html",
     "main.7d9318bc.css.map": "/bangla-audio-quran/static/css/main.7d9318bc.css.map",
-    "main.bd03b3a4.js.map": "/bangla-audio-quran/static/js/main.bd03b3a4.js.map"
+    "main.c3a1de6c.js.map": "/bangla-audio-quran/static/js/main.c3a1de6c.js.map"
   },
   "entrypoints": [
     "static/css/main.7d9318bc.css",
-    "static/js/main.bd03b3a4.js"
+    "static/js/main.c3a1de6c.js"
   ]
 }
