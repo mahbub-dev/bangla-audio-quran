@@ -7,7 +7,6 @@ import FilterSurah from "./components/FilterSurah";
 function App() {
 	const {
 		handleSearch,
-		searchBtnHnadler,
 		url,
 		playerCss,
 		isPlay,
@@ -24,10 +23,11 @@ function App() {
 					<input
 						type="text"
 						onChange={handleSearch}
-						placeholder="type the name of a chapter or number"
+						placeholder="Find by Name/Number"
 					/>
 				</div>
 			</div>
+			<div className="player">
 			<p className="playing">
 				{isPlay
 					? playStatus !== "error"
@@ -52,6 +52,8 @@ function App() {
 					setPlayStatus("error");
 				}}
 			/>
+			</div>
+			
 			<div className="surah">
 				{filterData.length === 0 || filterData.length === 114
 					? surah.map((item) => (
@@ -65,7 +67,7 @@ function App() {
 							</div>
 					  ))}
 			</div>
-			<a href="https://www.facebook.com/hsmahbub" className="dev-details">
+			<a href="https://www.facebook.com/hsmahbub" rel="noreferrer" target='_blank' className="dev-details">
 				<span>Dev</span>
 			</a>
 		</div>

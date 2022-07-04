@@ -51,7 +51,9 @@ p {
 /* custom  */
 .App {
 	/* background-image: url("WallpaperDog-20518472.jpg"); */
-	background-color: #7c7875;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./appbg.jpg');
+	background-attachment: fixed;
+	/* background-color: #f47c7c; */
 	width: 100%;
 	min-height: 100vh;
 }
@@ -60,9 +62,10 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top: 250px;
 	flex-wrap: wrap;
 	font-size: 17px;
-
+	max-width: 1300px;
 }
 .details {
 	border-radius: 5px;
@@ -72,11 +75,17 @@ p {
 	color: white;
 	padding: 0.3rem;
 }
-.playing{
+.player {
+	position: fixed;
+	left: 0;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./appbg.jpg');
+	right: 0;
+	padding-top: 50px;
+}
+.playing {
 	margin: 2rem auto;
 	color: whitesmoke;
 	font-size: 22px;
-	
 }
 .details button {
 	background: unset;
@@ -104,6 +113,10 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	z-index: 1;
+	position: fixed;
+    left: 0;
+    right: 0;
 	justify-content: center;
 }
 .search input {
@@ -111,56 +124,41 @@ p {
 	text-align: center;
 	width: 800px;
 	height: 50px;
-	/* border: 1px solid gray; */
+	border: none;
 	outline: none;
-	transition: .5s;
+	transition: 0.5s;
 }
-.search input:focus{
+.search input:focus {
 	transform: scale(1.1);
-	
 }
-.dev-details{
+.dev-details {
 	position: fixed;
 	top: 115px;
 	line-height: 50px;
 	padding-right: 1rem;
-	padding-left: .2rem;
+	padding-left: 0.2rem;
 	left: 0px;
 	text-decoration: none;
-	background-color: #DEA839;
+	background-color: #dea839;
 	cursor: pointer;
 	border-radius: 0 50px 50px 0;
 	color: white;
-	transition: all .7s;
+	transition: all 0.7s;
 	width: 38px;
 }
-.dev-details span{
+.dev-details span {
 	width: 50px;
 	overflow: hidden;
 }
-.dev-details:hover{
+.dev-details:hover {
 	width: fit-content;
-	padding-left: .5rem;
+	padding-left: 0.5rem;
 }
 
 @media screen and (max-width: 1055px) {
-	.App {
-		background-image: none;
-		background-color: #f47c7c;
-	}
-}
-@media screen and (max-width: 880px) {
-	.search {
-		width: 500px;
-		padding: 1rem;
-	}
-	input {
-		width: 300px;
-	}
 }
 @media screen and (max-width: 550px) {
 	.App {
-		/* background-image: url("./mobileBg/06.png"); */
 		min-height: 100vh;
 	}
 	.search {
@@ -183,7 +181,13 @@ p {
 	.details {
 		width: 150px;
 	}
-	.playing{
-		padding-top: 95px;
+	.playing {
+		padding-top: 50px;
+	}
+	.dev-details {
+		top: 70px;
+	}
+	.player{
+		padding-top: 0px;
 	}
 }
