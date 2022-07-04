@@ -7,7 +7,10 @@ function Surah({ item }) {
 		<div
 			className="details"
 			style={{
-				backgroundImage: `url(${bg})`,
+				backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(${bg})`,
+				backgroundPosition: "center",
+				backgroundRepeat: 'repeat-x',
+				right: "50px",
 				backgroundSize: "cover",
 			}}
 		>

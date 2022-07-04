@@ -6,7 +6,6 @@ import Surah from "./components/Allsura";
 import FilterSurah from "./components/FilterSurah";
 function App() {
 	const {
-		inputDiplay,
 		handleSearch,
 		searchBtnHnadler,
 		url,
@@ -21,37 +20,12 @@ function App() {
 	return (
 		<div className="App">
 			<div className="search">
-				<div className="search-btn">
-					<button
-						type="button"
-						className="btn"
-						onClick={() => searchBtnHnadler("name")}
-					>
-						Find by Name
-					</button>
-					<button
-						type="button"
-						className="btn"
-						onClick={() => searchBtnHnadler("number")}
-					>
-						Find by Chaptar Number
-					</button>
-				</div>
 				<div className="input-field">
-					{inputDiplay && (
-						<input
-							type="text"
-							onChange={handleSearch}
-							placeholder="Name"
-						/>
-					)}
-					{!inputDiplay && (
-						<input
-							type="number"
-							onChange={handleSearch}
-							placeholder="Number"
-						/>
-					)}
+					<input
+						type="text"
+						onChange={handleSearch}
+						placeholder="type the name of a chapter or number"
+					/>
 				</div>
 			</div>
 			<p className="playing">

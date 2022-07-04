@@ -102,7 +102,6 @@ p {
 }
 .search {
 	display: flex;
-
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -110,24 +109,15 @@ p {
 .search input {
 	font-size: 18px;
 	text-align: center;
-	width: 601px;
+	width: 800px;
 	height: 50px;
-	border: 1px solid gray;
+	/* border: 1px solid gray; */
 	outline: none;
+	transition: .5s;
 }
-.search button {
-	background: goldenrod;
-	color: white;
-	border: none;
-	width: 300px;
-	height: 50px;
-	cursor: pointer;
-}
-.search-btn {
-	display: flex;
-}
-.search button:focus {
-	background-color: black;
+.search input:focus{
+	transform: scale(1.1);
+	
 }
 .dev-details{
 	position: fixed;
