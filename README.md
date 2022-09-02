@@ -1,12 +1,5 @@
-# Getting Started with Create React App
+Bangla audio quran written by Md Mahbub Alom using react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[You can visit from here](https://mahbub-dev.github.io/bangla-audio-quran/)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot_13](https://user-images.githubusercontent.com/87687925/188035330-29b05f17-448a-4502-99d6-72143ff29c18.png)
